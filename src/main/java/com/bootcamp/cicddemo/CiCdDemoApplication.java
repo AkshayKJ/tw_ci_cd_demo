@@ -15,8 +15,8 @@ public class CiCdDemoApplication {
 
 	@GetMapping("/")
 	public String homepage() {
-		return "<div style=\"position:absolute;margin:auto;\">" +
-				"<iframe width=\"420\" height=\"315\" src=\"https://drive.google.com/file/d/1Ti05_eOSGIzLkECjEjfIbiXWnMNBdIeA/preview?autoplay=1\">" +
-				"</iframe> </div>";
+		return "<div style=\"width:700;height:500;position:absolute;margin:auto;top:0;left:0;bottom:0;right:0;\">" +
+				"<iframe src=\"https://drive.google.com/file/d/1Ti05_eOSGIzLkECjEjfIbiXWnMNBdIeA/preview\" " +
+				"width=\"640\" height=\"480\" allow=\"autoplay\"></iframe></div>";
 	}
 }
